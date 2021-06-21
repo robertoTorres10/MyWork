@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+body{
+    background-color: #333745;
+    color: #E5E7E6;
+}
+header{
+    font-family: 'Prompt', sans-serif;
+    padding: 25px;
+    padding-left: 50px;
+    background-color: black;
+}
+
+/* .jumbotron{
+    background-color: #E5E7E6;
+    font-family: 'Prompt', sans-serif;
+    margin: 40px;
+    background-image: url("gradPic.png");
+    color: rgb(213, 0, 50);
+    background-image: url("ProfilePic.JPG");
+    background-size: 40%;
+    background-repeat: no-repeat;
+} */
+
+.center{
+    margin: auto;
+    width: 60%;
+}
+.jumbotron{
+    font-family: 'Prompt', sans-serif;
+    font-size: larger;
+    font-weight: 400;
+    color: white;
+    background-image: url("gradPic.png");
+    height: 500px;
+    width: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* text-align: center; */
+    margin-top: 30px;
+}
+.pictureCaption{
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+}
