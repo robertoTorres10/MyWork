@@ -102,4 +102,9 @@ img{
     color: black;
 }
 
+.buttons{
+    position:absolute;
+    left: 25%;
+    width: 100%;
+}
 
