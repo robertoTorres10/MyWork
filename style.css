@@ -17,10 +17,14 @@ header,h1{
     text-align: center;
 }
 
-img{
+.pics{
     height: 400px;
     max-width: 100%;
 
+}
+img{
+    height: auto;
+    max-width: 100%;
 }
 
 .screen{
