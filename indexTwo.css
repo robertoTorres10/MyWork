@@ -91,3 +91,21 @@ button:hover{
     margin-bottom: 1.25rem;
     text-transform: capitalize;
 }
+
+/* Photos */
+/* Tiles */
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
