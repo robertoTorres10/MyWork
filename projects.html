@@ -1,139 +1,137 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <!-- Required Meta Tags -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width">
-    
-    <!-- Below Is Material Design -->
-    <!-- <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
-    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link href="style.css" rel="stylesheet" type="text/css"/> -->
-    
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;600&family=Poppins:wght@100;200;300;600&display=swap" rel="stylesheet">
-    <!-- Font Awesome "For Icons" -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <!-- Custom Stylesheet -->
-    <link rel="stylesheet" href="indexTwo.css">
-    <title>RobertoTorres</title>
+  <!-- Required Meta Tags -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome "For Icons" -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+  <title>RobertoTorres</title>
 </head>
 <body>
-  <nav id = "navbar" class="navbar navbar-light px-1">
+  <nav id = "mainNavbar" class="navbar navbar-expand-lg navbar-dark bg-transparent">
     <div class="container-fluid">
-        <span class="navbar-text">Projects</span>
+      <a class="navbar-brand" href="">ROBERTO</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projects.html">PROJECTS</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </nav>
 
-  <div class="container-fluid px-4">
-    <p class="text">
+  <div class="container-fluid" id="project">
+    <p>
+      <span>PROJECTS</span><br>
       This page here showcases a bit of the work I have done to provide an insight into the skills and knowledge that I have learned.
       I'll continue to update my projects as frequently for a better insight of my growth.
     </p>
   </div>
 
-  <hr style="background-color: white;">
+  <hr>
 
 <!-- Project Cards -->
   <div class="container-fluid card-group mt-lg-5">
     <div class="card">
-      <img src="rockPaperScissors.png" class="card-img-top" alt="Rock Paper Scissors">
+      <img src="rockPaperScissors.png" alt="Rock Paper Scissors">
       <div class="card-body">
-        <h1 id="heading">Rock Paper Shoot</h1>
-        <p class="text">here I create a fun game where you can challenge the computer in a game of rock paper scissors.</p>
+        <h1>Rock Paper Shoot</h1>
+        <p>here I create a fun game where you can challenge the computer in a game of rock paper scissors.</p>
         <a href = "https://robertotorres10.github.io/RockPaperScissors/">rockPaperScissorsGame</a>
       </div>
     </div>
-
     <div class="card">
-      <img src="map.png" class="card-img-top" alt="Google Maps">
+      <img src="map.png" alt="Google Maps">
       <div class="card-body">
-        <h1 id="heading">Location Map</h1>
-        <p class="text">In This Project, I Work With Google Maps API And Use The Location Awareness Feature To Pinpoint The Exact Location Of The User. This was a project where I get an insight into how the google maps app works as I work with basic features.</p>
+        <h1>Location Map</h1>
+        <p>In This Project, I Work With Google Maps API And Use The Location Awareness Feature To Pinpoint The Exact Location Of The User. This was a project where I get an insight into how the google maps app works as I work with basic features.</p>
         <a href = "https://robertotorres10.github.io/IT202-Spring2021-activities/locationAwareMap.html">LocationAwareness</a>
       </div>
     </div>
-
     <div class="card">
-      <img src="chicagoStar.png" class="card-img-top" alt="Chicago Star">
+      <img src="chicagoStar.png" alt="Chicago Star">
       <div class="card-body">
-        <h1 id="heading">Chicago City Owned Land</h1>
-        <p class="text">In this project, I Have Built A Single-Page App That Allows Users To Search For Chicago City Owned Land Inventory Data. I use the city of Chicago API for the user to search. Plenty of Bootstrap and Google Maps features are implemented here.</p>
+        <h1>Chicago City Owned Land</h1>
+        <p>In this project, I Have Built A Single-Page App That Allows Users To Search For Chicago City Owned Land Inventory Data. I use the city of Chicago API for the user to search. Plenty of Bootstrap and Google Maps features are implemented here.</p>
         <a href = "https://robertotorres10.github.io/IT202-Spring2021-Project1/">LandInventoryApp</a>
       </div>
     </div>
   </div>
-
   <div class="container-fluid card-group mt-lg-5">
     <div class="card">
-      <img src="strip1.png" class="card-img-top" alt="Swamp Monster Game">
+      <img src="strip1.png" alt="Swamp Monster Game">
       <div class="card-body">
-        <h1 id="heading">Swamp Monster Game</h1>
-        <p class="text">I Demonstrate An Understanding Of Drawing And Animation Using The HTML5 Canvas Element As Well Of An Understanding Of JavaScript Basics. A Simple Scrolling Game Using RequestAnimationFrame Method Of The Window Object. <br>*Working Progress*</p>
+        <h1>Swamp Monster Game</h1>
+        <p>I Demonstrate An Understanding Of Drawing And Animation Using The HTML5 Canvas Element As Well Of An Understanding Of JavaScript Basics. A Simple Scrolling Game Using RequestAnimationFrame Method Of The Window Object. <br>*Working Progress*</p>
         <a href = "https://robertotorres10.github.io/IT202-Spring2021-project2/">SwampMonsterGame</a>
       </div>
     </div>
-
     <div class="card">
-      <img src="skyGramIcon.png" class="card-img-top" alt="Sky Gram App">
+      <img src="skyGramIcon.png" alt="Sky Gram App">
       <div class="card-body">
-        <h1 id="heading">SkyGram App</h1>
-        <p class="text">In this project, I make my own version of a popular social media app where the user uploads a photo of a scenic view to share with friends. I demonstrate an understanding
+        <h1>SkyGram App</h1>
+        <p>In this project, I make my own version of a popular social media app where the user uploads a photo of a scenic view to share with friends. I demonstrate an understanding
           of HTML, CSS, JavaScript. I use a weather api, google map api, using hardware features such a permission to use camera. UI implementations from material-components-web, downloadable as a progressive web app. This
           was a final project of mine for IT202 which I took in spring semester 2021. <br><small>*created the icon myself*</small></p>
         <a href = "https://robertotorres10.github.io/IT202-Spring2021-Project3/">SkyGramApp</a>
       </div>
     </div>
-
     <div class="card">
-      <img src="juice.png" class="card-img-top" alt="Juice">
+      <img src="juice.png" alt="Juice">
       <div class="card-body">
-        <h1 id="heading">Splash Juice Website</h1>
-        <p class="text">In this project, I decided to go ahead and make a website advertising juice. I went ahead and used my HTML, CSS skills to assemble a creative website. I was able to get creative with it and used bootstrap to help set up the layout for the content</p>
+        <h1>Splash Juice Website</h1>
+        <p>In this project, I decided to go ahead and make a website advertising juice. I went ahead and used my HTML, CSS skills to assemble a creative website. I was able to get creative with it and used bootstrap to help set up the layout for the content</p>
         <a href = "https://robertotorres10.github.io/FruitJuice/">Splash Juice Website</a>
       </div>
     </div>
   </div>
   <div class="container-fluid card-group mt-lg-5">
     <div class="card">
-      <img src="tv.png" class="card-img-top" alt="TV Search">
+      <img src="tv.png" alt="TV Search">
       <div class="card-body">
-        <h1 id="heading">Splash Juice Website</h1>
-        <p class="text">I work on a simple project where I use TV Maze API to help me display a listing of TV shows based off what the user request. I work with axios for the first time in the background. Usage of Bootstrap, API fetching are used</p>
+        <h1>Splash Juice Website</h1>
+        <p>I work on a simple project where I use TV Maze API to help me display a listing of TV shows based off what the user request. I work with axios for the first time in the background. Usage of Bootstrap, API fetching are used</p>
         <a href = "https://robertotorres10.github.io/FruitJuice/">TV Search App</a>
       </div>
     </div>
     <div class="card">
-      <img src="coffeecup.png" class="card-img-top" alt="coffeecup">
+      <img src="coffeecup.png" alt="coffeecup">
       <div class="card-body">
-        <h1 id="heading">Checago Coffee Inc Internship</h1>
-        <p class="text">In October 2021, I jumped on board as a mobile app developer intern with the checago coffee inc. I cannot show off the project as mine but what I did here was 
+        <h1>Checago Coffee Inc Internship</h1>
+        <p>In October 2021, I jumped on board as a mobile app developer intern with the checago coffee inc. I cannot show off the project as mine but what I did here was 
           Practiced my skills in bringing The Checago Coffee App to a higher level by working extensively on their codebase. Gained plenty experience building and troubleshooting using Android Studio and Java. Partnered with the founders and team members in designing, analyzing, and problem-solving tasks in both the front and backend. Was heavily exposed to PHP, SQL server database, working with APIs and AWS.</p>
       </div>
     </div>
-    
+  </div>
+  <hr>
+  <!-- Button -->
+  <div id = "click" class="mb-5">
+    <a href="index.html">
+      <button><i class = "fas fa-home"></i> Home</button>
+    </a>
   </div>
 
-  <!-- Buttons -->
-  <div>
-    <section id = "click" class="mb-5">
-      <a href="index.html">
-        <button><i class = "fas fa-home"></i> Home</button>
-      </a>
-      <a href="projects.html">
-        <button><i class="fas fa-code-branch"></i> Projects</button>
-      </a>
-      <a href="aboutMe.html">
-        <button><i class="fas fa-smile"></i> About Me</button>
-      </a>
-    </section>
-  </div>
   
+  <!-- Javascript from Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  <!-- Custom Javascript File -->
   <script src="script.js"></script>
-
 </body>
 </html>
