@@ -126,12 +126,14 @@ button:hover{
 }
 
 .card h1{
+    text-align: center;
     color: #002766;
     font-size: 1.5em;
     font-weight: 600;
-    margin: 0px;
+    margin: 10px;
 }
 .card p{
+    text-align: justify;
     font: 1.125em 300 'Montserrat', sans-serif;
     text-transform: capitalize;
     margin: 0;
@@ -141,16 +143,16 @@ button:hover{
 }
 
 /* Responsive columns - one column layout (vertical) on small screens */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
+/* @media(max-width: 650px){ */
     .column {
       width: 100%;
       display: block;
       margin-bottom: 20px;
     }
 }
-@media (max-width: 1200px)
-    and(device-width: 414px){
-/* @media(max-width: 650px){ */
+
+@media(max-width: 650px){
     .banner{
       display: block;
       font-size: 80%;
@@ -159,10 +161,14 @@ button:hover{
         display: block;
         font-size: 80%;
     }
-    p{
-      position: relative;
-      margin: -3rem 0 2re 1rem;
-      padding: 1rem;
-      background: rgba(white, 0.8);
+    p {
+        text-align: justify;
+        position: relative;
+        margin: -3rem 0 2re 1rem;
+        padding: 1rem;
+        background: rgba(white, 0.8);
+    }
+    h1{
+        text-align: center;
     }
 }
